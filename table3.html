@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Table3</title>
+
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		td,
+		th {
+			padding: 5px;
+			text-align: center;
+		}
+
+		#choose {
+			/* цвет фона */
+			background-color: #7887ab;
+			border-top-left-radius: 10px;
+		}
+
+		#plan_1 {
+			/* цвет фона */
+			background-color: #4f628e;
+		}
+
+		#plan_2 {
+			/* цвет фона */
+			background-color: #2e4172;
+		}
+
+		#plan_3 {
+			/* цвет фона */
+			background-color: #162955;
+		}
+
+		#plan_4 {
+			/* цвет фона */
+			background-color: #061539;
+		}
+
+		#plan_4TopRightRad {
+			/* цвет фона */
+			background-color: #061539;
+			border-top-right-radius: 10px;
+		}
+
+		.frameStart {
+			border: 2px solid #b0b0b0;
+			display: inline-block;
+			padding: 5px 20px 5px 20px;
+			font-size: 24px;
+			background-color: #d3d3d3;
+			color: #61656f;
+		}
+
+		.frameThrough1Line {
+			background-color: #e7e7e7;
+		}
+
+		#grayColor {
+			background-color: #dbdbdb;
+		}
+
+		#whiteFontColor {
+			color: #ffffff;
+		}
+
+		.left-align {
+			text-align: left;
+		}
+	</style>
+
+
+</head>
+
+<body>
+	<!-- таблица на	5 столбцов, 10 строк -->
+	<table>
+		<!-- 1 ряд -->
+		<tr id="whiteFontColor">
+			<td id="choose" rowspan="3">Choose your plan</td>
+			<td id="plan_1">starter</td>
+			<td id="plan_2">econom</td>
+			<td id="plan_3">standard</td>
+			<td id="plan_4TopRightRad">professional</td>
+		</tr>
+		<!-- 2 ряд -->
+		<tr id="whiteFontColor">
+			<td id="plan_1">$10</td>
+			<td id="plan_2">$30</td>
+			<td id="plan_3">$59</td>
+			<td id="plan_4">$99</td>
+		</tr>
+		<!-- 3 ряд -->
+		<tr id="whiteFontColor">
+			<td id="plan_1">per month</td>
+			<td id="plan_2">per month</td>
+			<td id="plan_3">per month</td>
+			<td id="plan_4">per month</td>
+		</tr>
+		<!-- 4 ряд -->
+		<tr id="grayColor">
+			<td>Amount of space</td>
+			<td class="frameThrough1Line">20GB</td>
+			<td>40GB</td>
+			<td class="frameThrough1Line">110GB</td>
+			<td>Unlimited</td>
+		</tr>
+		<!-- 5 ряд -->
+		<tr id="grayColor">
+			<td>Bandwidth per month</td>
+			<td class="frameThrough1Line">120GB</td>
+			<td>240GB</td>
+			<td class="frameThrough1Line">610GB</td>
+			<td>1300GB</td>
+		</tr>
+		<!-- 6 ряд -->
+		<tr id="grayColor">
+			<td>Email accounts</td>
+			<td class="frameThrough1Line">1</td>
+			<td>15</td>
+			<td class="frameThrough1Line">60</td>
+			<td>Unlimited</td>
+		</tr>
+		<!-- 7 ряд -->
+		<tr id="grayColor">
+			<td>MySQL databases</td>
+			<td class="frameThrough1Line">1</td>
+			<td>15</td>
+			<td class="frameThrough1Line">60</td>
+			<td>Unlimited</td>
+		</tr>
+		<!-- 8 ряд -->
+		<tr id="grayColor">
+			<td>25h support</td>
+			<td class="frameThrough1Line">No</td>
+			<td>Yes</td>
+			<td class="frameThrough1Line">Yes</td>
+			<td>Yes</td>
+		</tr>
+		<!-- 9 ряд -->
+		<tr id="grayColor">
+			<td>Support tickets per month</td>
+			<td class="frameThrough1Line">2</td>
+			<td>6</td>
+			<td class="frameThrough1Line">14</td>
+			<td>20</td>
+		</tr>
+		<!-- 10 ряд -->
+		<tr id="grayColor">
+			<td> </td>
+			<td class="frameThrough1Line">
+				<span class="frameStart">start
+				</span>
+			</td>
+			<td>
+				<span class="frameStart">start
+				</span>
+			</td>
+			<td class="frameThrough1Line">
+				<span class="frameStart">start
+				</span>
+			</td>
+			<td>
+				<span class="frameStart">start
+				</span>
+			</td>
+		</tr>
+</body>
+
+</html>
